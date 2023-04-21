@@ -26,4 +26,38 @@ body {
 			color: rgb(211, 211, 110);
 		}
 	}
+
+	.pageJobs {
+		.jobs {
+			.job {
+				background-color: #292929;
+				margin-top: 1rem;
+				padding: 1rem;
+
+				.publicationDate {
+					color: rgb(221, 221, 116);
+				}
+
+				.title {
+					font-size: 1.3rem;
+					color: rgb(144, 95, 5);
+
+					a {
+						color: rgb(199, 144, 41);
+						text-decoration: none;
+
+						&:hover {
+							text-decoration: underline;
+						}
+					}
+				}
+
+				.skillList {
+					margin-top: .5rem;
+					font-style: italic;
+					color: #999;
+				}
+			}
+		}
+	}
 }
