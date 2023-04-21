@@ -7,3 +7,10 @@ export interface IJob {
 	skillList: string;
 	publicationDate: string;
 }
+
+export interface ISkill {
+	idCode: string;
+	name: string;
+	url: string;
+	description: string;
+}
