@@ -1,7 +1,12 @@
+import { useContext } from 'react';
+import { AppContext } from '../AppContext';
+
 export const PageWelcome = () => {
+  const { jobs } = useContext(AppContext);
+
 	return (
 		<div className="pageWelcome">
-			<p>This is the welcome page.</p>
+			<p>There are {jobs.length} jobs.</p>
 		</div>
 	);
 };
